@@ -1,0 +1,28 @@
+/*
+User: Vincent Meegdes
+Date: 5-2-2020-
+Time: 14:28 PM
+File: opdracht_2-1.php
+*/
+body{
+    margin: 0px;
+}
+/*header stylen*/
+header{
+    background-color: antiquewhite;
+}
+/*menu stylen*/
+aside{
+    background-color: beige;
+    height: 500px;
+    width: 20%;
+}
+/*uitmerkingen stylen*/
+main{
+    background-color: blanchedalmond;
+    position: absolute;
+    left: 50%;
+    top:80px;
+    height:500px;
+    width:80%;
+}
