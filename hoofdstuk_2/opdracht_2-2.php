@@ -64,13 +64,10 @@ $text14 = "vind je niet";
         <?php
             echo "<p>".$text1 . $text4 . $text5 . $text3.$text10 . "</p>" . "<p>". $text12.$text7.$text10."</p>"."<p>". $text8.$text9."</p>"."<p>". $text12. $text6. $text5. $text3. $text13.$text10."</p>";
         ?>
-
-    <p>
         <!--    tekst 2    -->
         <?php
         echo "<p>"."$text1$text11"."</p>"."<p>"." $text12 $text8 $text5 $text3$text10"."</p>"."<p>"." $text12 $text7$text10"."</p>"."<p>"." $text14$text9"."</p>";
         ?>
-    </p>
 </main>
 </body>
 </html>
