@@ -1,11 +1,6 @@
 <?php
-
-/**
- * User: Vincent Meegdes
- * Date: 5-2-2020-
- * Time: 19:43 PM
- * File: opdracht_2-2.php
- */
+include "../includes/header.php";
+include "../includes/menu.php";
 ?>
 <?php
 //aanmaken variabelen
@@ -24,40 +19,7 @@ $text12 = "<br>";
 $text13 = "is";
 $text14 = "vind je niet";
 ?>
-<!doctype html>
-<html>
-<head>
-    <title>
-        2.2.php
-    </title>
-    <!--	beschrijfing van de website-->
-    <meta name="description" content="opdracht 2.2 php">
-    <!--	steekwoorden waar de browser naar zoekt -->
-    <meta name="keywords" content="opdracht,2.2,php">
-    <!--	de type tekens die gebruikt worden -->
-    <meta charset="utf-8">
-    <!--    het linken van een css bestand -->
-    <link href="../css/style.css" type="text/css" rel=stylesheet >
-</head>
-<body>
-<header>
-    <h1><?php echo "Uitwerking van PHP-opdrachten"; ?></h1>
-</header>
-<aside>
-    <h2>Menu</h2>
-    <ul>
-        <li>Hoofdstuk 2
-            <ul>
-                <li>
-                    <a href="opdracht_2-1.php">Opdracht 2.1</a>
-                </li>
-                <li>
-                    <a href="opdracht_2-2.php">Opdracht 2.2</a>
-                </li>
-            </ul>
-        </li>
-    </ul>
-</aside>
+
 <main id="wrapper">
     <h2>Uitwerkingen</h2>
         <!--    tekst 1    -->
@@ -70,6 +32,9 @@ $text14 = "vind je niet";
         echo "<p>"."$text1$text11"."</p>"."<p>"." $text12 $text8 $text5 $text3$text10"."</p>"."<p>"." $text12 $text7$text10"."</p>"."<p>"." $text14$text9"."</p>";
         ?>
 </main>
+<?php
+include "../includes/footer.php";
+?>
 </body>
 </html>
 

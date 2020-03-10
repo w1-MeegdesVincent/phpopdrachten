@@ -36,6 +36,9 @@ gehouden.";
     echo "<p>".$verhaal2."</p>";
     ?>
 </main>
+<?php
+include "../includes/footer.php";
+?>
 </body>
 </html>
 
