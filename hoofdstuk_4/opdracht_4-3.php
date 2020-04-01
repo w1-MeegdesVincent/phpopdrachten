@@ -3,7 +3,7 @@
  * User: Vincent Meegdes
  * Date: 25-3-2020
  * Time: 14:28 PM
- * File: opdracht_4.3.php
+ * File: opdracht_4.3 .php
  */
 include "../includes/header.php";//../ gebruiken voor includes
 include "../includes/menu.php";//../ gebruiken voor includes
@@ -16,6 +16,20 @@ include "../includes/menu.php";//../ gebruiken voor includes
         echo $task2;
         echo "<br>";
         echo $task3;
+        echo "<br>";
+        echo $task4;
+        echo "<br>";
+        ?>
+        <table>
+            <tr>
+                <?php
+                echo $task5;
+                ?>
+            </tr>
+        </table>
+        <?php
+        echo $task6;
+        echo $task7;
         ?>
     </main>
     <?php

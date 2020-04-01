@@ -1,14 +1,8 @@
 <?php
-//tekst laten zien in php
-    echo "Hallo World!";
-    echo "test";
-?>
-
-<?php
 
 /**
  * User: Vincent Meegdes
- * Date: 5-2-202-
+ * Date: 5-2-2020
  * Time: 14:28 PM
  * File: opdracht_2-1.php
  */
@@ -50,20 +44,32 @@
 <main id="wrapper">
     <h2>Uitwerkingen</h2>
     <?php
-        //string
-        $name = "Remco";
-        //boolean
-        $teacher = true;
-        //Integer
-        $age = 32;
-        //Float
-        $length = 1.91;
-        //array
+//    different types of variables
+        $profession = "ICT'ers"; //string
+        $year = 2019; //Integer
+        $percentage = 17.1; //float
+        $subjects = ["Internet", "Computers", "software"]; //array
+        $subjects = array("Internet", "Computers", "software");// old method array
+        $skills = false;//boolean
 
-        //toon tekst
-        echo "<p>" . $name . " is " . $age . " jaar oud"."</p>"
-
+//    if/else
+//    == is gelijk aan
+//    != is niet gelijk aan
+//    < is kleiner dan <= is waarde of lager
+//    > is groter dan => is waarde of hoger
+//    || een waarde moet goed zijn  && waardes moeten bijde goed zijn
+    if($skills == true)
+    {
+        echo "skills is true";
+    }
+    else
+    {
+        echo "skills is false";
+    }
+//    include()
+//    require()
     ?>
+</main>
 </main>
 </body>
 </html>
